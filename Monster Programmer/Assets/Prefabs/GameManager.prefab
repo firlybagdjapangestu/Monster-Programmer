@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5003390644954213148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9194676064455201452}
+  - component: {fileID: 9160254491315231961}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9194676064455201452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5003390644954213148}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 123.473915, y: 73.09381, z: -1.4181893}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9160254491315231961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5003390644954213148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0a8489ad32ae74e8055c3bdb917e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedMonsterIndex: 
+  selectedPlayerMonster: {fileID: 0}
+  selectedEnemyMonster: {fileID: 0}
+  level: 1
+  captureBalls: 0
+  availableMonsters:
+  - {fileID: 11400000, guid: 6ade651b5e64cca43b49422ff9e3d58d, type: 2}
+  - {fileID: 11400000, guid: 7e2592eecb9d987429b2f85681ebf01a, type: 2}
+  - {fileID: 11400000, guid: c09739f6acadf854c890a80b140755cf, type: 2}
+  - {fileID: 11400000, guid: ae2a3e1c3f6d06c4abdfc0c6d62f1f88, type: 2}
+  - {fileID: 11400000, guid: 6c3b365a896ec9b46a971a30d0dbc297, type: 2}
+  - {fileID: 11400000, guid: 77fab8040810b3f4f800263c4eceec87, type: 2}
+  - {fileID: 11400000, guid: b018b66fddd1466489d0d59ad011c7fd, type: 2}
+  - {fileID: 11400000, guid: 32d41266a82777f4ea5ad1f065ee0237, type: 2}
+  - {fileID: 11400000, guid: ce75b3a9693384e4895894b045eacada, type: 2}
+  ownedMonsters: []

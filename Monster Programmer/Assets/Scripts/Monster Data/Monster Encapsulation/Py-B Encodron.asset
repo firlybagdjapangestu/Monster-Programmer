@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0859645d1ec8e4ab0333202c2585ae, type: 3}
+  m_Name: Py-B Encodron
+  m_EditorClassIdentifier: 
+  monsterID: Encapsulation-Py-B
+  monsterName: Encodron
+  frontSpriteMonster: {fileID: -926960237504888707, guid: 23e35d1a2277e484b82076eff64ce005, type: 3}
+  backSpriteMonster: {fileID: 1302657896453824089, guid: 23e35d1a2277e484b82076eff64ce005, type: 3}
+  type: 0
+  rarity: 1
+  attack: 100
+  defense: 70
+  speed: 50
+  questionData:
+  - questionText: {fileID: 7416632945356325427, guid: 6c31632606166bf4fa6a3f0f676a250f, type: 3}
+    answerOptions:
+    - {fileID: -3088108203057877060, guid: 5cee2e33f7f88f74d95ad42be18c9b2a, type: 3}
+    - {fileID: -1815161257322901535, guid: 5cee2e33f7f88f74d95ad42be18c9b2a, type: 3}
+    - {fileID: 4521139495950901344, guid: 5cee2e33f7f88f74d95ad42be18c9b2a, type: 3}
+    - {fileID: 2974525570166977026, guid: 5cee2e33f7f88f74d95ad42be18c9b2a, type: 3}
+    correctAnswerIndex: 0
