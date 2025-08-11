@@ -1,0 +1,152 @@
+[
+  {
+    "questionText": "How does method overriding relate to dynamic polymorphism?",
+    "answers": [ "It uses the method's name only", "It occurs during compile time", "It allows subclass to redefine parent method at runtime", "It hides the parent method" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which feature of C++ enables runtime polymorphism?",
+    "answers": [ "Function overloading", "Templates", "Virtual functions", "Inline functions" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "In Python, which method is used to override the behavior of `+` operator?",
+    "answers": [ "__add__", "add()", "override_add()", "__plus__" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which OOP concept allows different classes to provide a different implementation of the same interface method?",
+    "answers": [ "Encapsulation", "Inheritance", "Polymorphism", "Composition" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, which type of methods can be overridden?",
+    "answers": [ "private", "final", "static", "public non-final" ],
+    "indexRightAnswer": 3,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What happens if you try to override a method marked as `final` in Java?",
+    "answers": [ "It overrides normally", "Compiler error", "It hides the method", "It becomes abstract" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which of the following is true about polymorphism in Python?",
+    "answers": [ "It supports only static polymorphism", "It does not support polymorphism", "It supports both method overloading and overriding", "It supports dynamic polymorphism only" ],
+    "indexRightAnswer": 3,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which method is automatically called when an object is converted to a string in Python?",
+    "answers": [ "__string__", "__str__", "toString", "__repr__" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What is function hiding in C++?",
+    "answers": [ "Subclass method hides base class method with same name", "Overloading with new parameters", "Overriding using virtual", "Function with different return type" ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which of these supports both compile-time and run-time polymorphism?",
+    "answers": [ "Java", "Python", "C++", "All of them" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "What is a key requirement for method overriding in C++?",
+    "answers": [ "Method must be private", "Method must be virtual", "Method must be static", "Method must be overloaded" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "What is the role of `super()` in Python polymorphism?",
+    "answers": [ "Access parent class's properties", "Call parent constructor", "Override base class method", "Call grandparent class" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which of the following can be overloaded in C++?",
+    "answers": [ "Class", "Variable", "Constructor", "Namespace" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which of the following supports multiple dispatch natively?",
+    "answers": [ "Java", "Python", "C++", "None of them" ],
+    "indexRightAnswer": 3,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is the result of calling a virtual function through a base class pointer in C++?",
+    "answers": [ "Base class version is always called", "Compiler error", "Derived class version is called if overridden", "It crashes" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Why is dynamic polymorphism useful?",
+    "answers": [ "Reduces code reusability", "Prevents inheritance", "Allows flexible and extensible code", "Makes programs slower" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which special function allows object comparison in Python?",
+    "answers": [ "__cmp__", "__eq__", "__compare__", "__equals__" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What is a downside of using polymorphism?",
+    "answers": [ "Increased memory use", "Less flexible code", "Harder maintenance", "Slower performance in dynamic dispatch" ],
+    "indexRightAnswer": 3,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, which methods can't be overridden?",
+    "answers": [ "Public", "Final", "Virtual", "Abstract" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Can you overload a method only by changing return type in Java?",
+    "answers": [ "Yes", "No", "Only in static methods", "Only if private" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which is NOT required for function overriding?",
+    "answers": [ "Same method name", "Same parameter list", "Same return type", "Same access level" ],
+    "indexRightAnswer": 3,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which keyword makes a method eligible for dynamic dispatch in Java?",
+    "answers": [ "final", "virtual", "default", "All non-static and non-final methods" ],
+    "indexRightAnswer": 3,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which of the following Python dunder methods is related to subtraction?",
+    "answers": [ "__sub__", "__minus__", "__subtract__", "__subt__" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What happens when you overload a function with different number of parameters?",
+    "answers": [ "Error", "Runtime override", "Compile-time selection", "Shadowing" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What does polymorphism improve in OOP code?",
+    "answers": [ "Hardcoding", "Coupling", "Flexibility and maintainability", "Runtime errors" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  }
+]

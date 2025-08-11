@@ -1,0 +1,152 @@
+[
+  {
+    "questionText": "What is the basic idea of polymorphism in OOP?",
+    "answers": [ "Many classes in one object", "One function with many forms", "One object with one behavior", "Different classes, same variables" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which of the following best describes function overloading?",
+    "answers": [ "Same function name with different parameters", "Different function names with same body", "Two classes with same method", "Different return types only" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, which keyword allows method overriding?",
+    "answers": [ "static", "override", "virtual", "None required" ],
+    "indexRightAnswer": 3,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which of these languages supports operator overloading?",
+    "answers": [ "Java", "Python", "JavaScript", "HTML" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What is method overriding?",
+    "answers": [ "Defining multiple methods with same name", "Changing a method in a subclass", "Removing a method", "Copying a method" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which concept allows treating different objects as if they were of the same type?",
+    "answers": [ "Inheritance", "Encapsulation", "Polymorphism", "Abstraction" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is the purpose of the `virtual` keyword in C++?",
+    "answers": [ "To overload a method", "To allow runtime polymorphism", "To hide a method", "To make a class abstract" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which keyword is used in Python to override parent methods?",
+    "answers": [ "override", "virtual", "None", "super" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What is static polymorphism also known as?",
+    "answers": [ "Runtime binding", "Dynamic dispatch", "Compile-time polymorphism", "None" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is required for method overriding to occur?",
+    "answers": [ "Same class", "Same method name and parameters in subclass", "Different return type", "Static methods" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which type of polymorphism is achieved through inheritance?",
+    "answers": [ "Static", "Operator", "Dynamic", "None" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, method overloading depends on:",
+    "answers": [ "Return type", "Access modifier", "Method name and parameter list", "Class name" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which special function is used for operator overloading in Python?",
+    "answers": [ "def overload()", "def operator()", "__add__()", "overload__()" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which concept lets different classes respond to the same message in different ways?",
+    "answers": [ "Inheritance", "Encapsulation", "Polymorphism", "Casting" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which C++ feature enables compile-time polymorphism?",
+    "answers": [ "Virtual functions", "Templates", "Inheritance", "Abstract classes" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Can constructors be overloaded?",
+    "answers": [ "Yes", "No", "Only in C++", "Only in Python" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which of these is not a type of polymorphism?",
+    "answers": [ "Compile-time", "Run-time", "Constructor-time", "Operator" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which of the following allows different behaviors in subclasses using the same method name?",
+    "answers": [ "Overloading", "Casting", "Overriding", "Encapsulation" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, what does `__str__` method do?",
+    "answers": [ "Performs math operations", "Used for string representation", "Overloads + operator", "Adds two numbers" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which of these is required for function overloading?",
+    "answers": [ "Same parameters", "Same return type", "Different parameters", "Private method" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Does Java support operator overloading?",
+    "answers": [ "Yes", "No", "Only with interfaces", "Only with abstract classes" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which term describes choosing the correct method at runtime?",
+    "answers": [ "Dynamic binding", "Static binding", "Method hiding", "Function template" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Can a class overload a method based on different return types only?",
+    "answers": [ "Yes", "No", "Only in Python", "Only in Java" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which keyword is used in Java to call a method from the parent class?",
+    "answers": [ "super", "parent", "this", "override" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which concept lets you use the same interface for different data types in C++?",
+    "answers": [ "Inheritance", "Templates", "Abstract class", "Casting" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  }
+]

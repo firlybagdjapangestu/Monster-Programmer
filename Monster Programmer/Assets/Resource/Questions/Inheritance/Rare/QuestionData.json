@@ -1,0 +1,182 @@
+[
+  {
+    "questionText": "What is the main purpose of inheritance in object-oriented programming?",
+    "answers": [ "To avoid encapsulation", "To increase complexity", "To reuse code and extend functionality", "To compile faster" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which keyword is used in Java to inherit a class?",
+    "answers": [ "extends", "inherits", "instanceof", "super" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "In C++, what kind of inheritance allows a derived class to inherit from more than one base class?",
+    "answers": [ "Single inheritance", "Multilevel inheritance", "Hierarchical inheritance", "Multiple inheritance" ],
+    "indexRightAnswer": 3,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "What is the base class in Python that all classes inherit from by default?",
+    "answers": [ "super", "object", "class", "base" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What is a subclass?",
+    "answers": [ "A class that is inherited", "A method inside a class", "A class that inherits from another class", "An interface" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which access modifier in C++ allows members to be accessible in derived classes but not outside?",
+    "answers": [ "private", "protected", "public", "internal" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "How does Python support multiple inheritance?",
+    "answers": [ "Through the 'super' function", "Using tuples in class declaration", "Using the 'inherits' keyword", "Using 'interface'" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What is the use of 'super' keyword in Java inheritance?",
+    "answers": [ "To access subclass members", "To call a superclass constructor or method", "To prevent inheritance", "To define interfaces" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Inheritance in OOP helps in what kind of design principle?",
+    "answers": [ "Tight coupling", "Code duplication", "Code reusability", "Global state" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What happens if a method in a subclass has the same signature as one in the superclass?",
+    "answers": [ "Compilation error", "Overriding occurs", "Overloading occurs", "The method is ignored" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which inheritance type is not supported directly in Java?",
+    "answers": [ "Single", "Multilevel", "Multiple", "Hierarchical" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What is the Diamond Problem in C++ inheritance?",
+    "answers": [ "A memory issue", "A syntax issue", "Ambiguity caused by multiple inheritance", "A compiler optimization problem" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "How does Python resolve the Diamond Problem?",
+    "answers": [ "Doesn't support multiple inheritance", "Using MRO (Method Resolution Order)", "Using override keyword", "Using single inheritance" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which keyword prevents a method from being overridden in Java?",
+    "answers": [ "const", "static", "final", "private" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Can a constructor be inherited in C++?",
+    "answers": [ "Yes", "No", "Only private constructors", "Only if it's virtual" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which method is automatically called during object creation in Python inheritance?",
+    "answers": [ "__str__", "__init__", "__class__", "__repr__" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What’s a common use of protected members in inheritance?",
+    "answers": [ "Accessible only in the same class", "Accessible only globally", "Accessible in derived classes", "Not accessible at all" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which keyword in Java is used to call the parent constructor?",
+    "answers": [ "this", "base", "parent", "super" ],
+    "indexRightAnswer": 3,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What is the term for a class that provides a blueprint for other classes?",
+    "answers": [ "Object", "Superclass", "Subclass", "Field" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "How can you stop inheritance of a class in C++?",
+    "answers": [ "Using 'final'", "Using 'sealed'", "Using 'private inheritance'", "C++ does not support blocking inheritance" ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which function in Python is used to call a method from a parent class?",
+    "answers": [ "parent()", "base()", "super()", "init()" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which concept supports overriding functionality in child classes?",
+    "answers": [ "Encapsulation", "Abstraction", "Inheritance", "Composition" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What does multilevel inheritance mean?",
+    "answers": [ "Multiple classes inherit the same class", "A class inherits from a subclass", "A class inherits from a class that already inherits from another class", "Two classes inherit from each other" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, what is inherited from the parent class?",
+    "answers": [ "Constructors only", "Private fields", "Public and protected members", "Local variables" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Can a subclass access private members of the superclass?",
+    "answers": [ "Yes, directly", "Yes, through inheritance", "No", "Only static methods" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is the term for using a subclass object where a superclass is expected?",
+    "answers": [ "Abstraction", "Encapsulation", "Polymorphism", "Constructor chaining" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is the correct syntax for inheriting a class in C++?",
+    "answers": [ "class Child inherits Parent", "class Child : Parent", "class Child extends Parent", "class Child : public Parent" ],
+    "indexRightAnswer": 3,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which of these is not a form of inheritance?",
+    "answers": [ "Single", "Multiple", "Structural", "Hierarchical" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, what happens if a derived class does not override a method from the base class?",
+    "answers": [ "Error", "It calls the base class method", "It crashes", "It runs an empty method" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which principle does inheritance promote?",
+    "answers": [ "DRY (Don’t Repeat Yourself)", "KISS (Keep it Simple)", "SOLID", "LIFO" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  }
+]

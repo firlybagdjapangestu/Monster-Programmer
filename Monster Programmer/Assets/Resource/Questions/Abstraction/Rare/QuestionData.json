@@ -1,0 +1,182 @@
+[
+  {
+    "questionText": "What is the main purpose of abstraction in OOP?",
+    "answers": [ "To speed up code execution", "To reduce complexity by hiding details", "To increase memory usage", "To duplicate code" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which of the following best describes an abstract class?",
+    "answers": [ "A class that cannot be inherited", "A class that can be instantiated", "A class that cannot be instantiated", "A class that has no methods" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which keyword is used to define an abstract class in Java?",
+    "answers": [ "virtual", "interface", "abstract", "class" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "In Python, which module provides support for defining abstract base classes?",
+    "answers": [ "abc", "oop", "base", "core" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What happens if a C++ class has a pure virtual function?",
+    "answers": [ "It becomes an abstract class", "It cannot have member variables", "It cannot use inheritance", "It throws an error" ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which of these is a benefit of abstraction?",
+    "answers": [ "Makes code slower", "Exposes all class details", "Protects implementation logic", "Adds more code duplication" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, what happens if a class implements an interface but does not override all methods?",
+    "answers": [ "It compiles normally", "It becomes abstract", "It crashes", "It becomes an interface" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "In Python, what is the result of instantiating a class that contains an abstract method?",
+    "answers": [ "It creates an object", "It raises an error", "It creates a base class", "It hides methods" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What does a pure virtual function look like in C++?",
+    "answers": [ "virtual void func();", "void func();", "virtual void func() = 0;", "func() = null;" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which OOP principle focuses on 'what' rather than 'how'?",
+    "answers": [ "Encapsulation", "Abstraction", "Inheritance", "Polymorphism" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Can an abstract class contain a constructor in C++?",
+    "answers": [ "No", "Only if virtual", "Yes", "Only static constructors" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which type of class in Java can have both abstract and non-abstract methods?",
+    "answers": [ "Interface", "Normal class", "Abstract class", "Final class" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which function type enforces implementation in derived classes in C++?",
+    "answers": [ "Virtual function", "Static function", "Pure virtual function", "Template function" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which of the following is NOT true about abstraction?",
+    "answers": [ "It hides internal details", "It shows only relevant features", "It exposes the full implementation", "It simplifies interface usage" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Can Python enforce abstraction at compile time?",
+    "answers": [ "Yes", "No", "Only with static typing", "Only in Python 2" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which of the following can be abstract in C++?",
+    "answers": [ "Only classes", "Only functions", "Both classes and functions", "Only constructors" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Why is abstraction considered a key concept in secure software design?",
+    "answers": [ "It hides implementation logic", "It increases bugs", "It removes inheritance", "It disables classes" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, can abstract classes have static methods?",
+    "answers": [ "No", "Yes", "Only if final", "Only private" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What is a key difference between an abstract class and an interface in Java?",
+    "answers": [ "Interface can’t have methods", "Abstract class supports multiple inheritance", "Interface allows multiple inheritance", "Abstract class is final" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What is the role of abstraction in large projects?",
+    "answers": [ "To make the code harder to read", "To hide unnecessary details", "To expose internal logic", "To duplicate functionality" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Can abstract methods have a body in C++?",
+    "answers": [ "Yes", "No", "Only if virtual", "Only static" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "In Python, what happens if a subclass does not override an abstract method?",
+    "answers": [ "It works normally", "It cannot be instantiated", "It becomes an interface", "It hides the method" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which abstraction type is used in APIs?",
+    "answers": [ "Low-level abstraction", "Hardware abstraction", "Interface abstraction", "Logical abstraction" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which of the following is NOT a benefit of abstraction?",
+    "answers": [ "Improved code reusability", "Simplified interface", "Tightly coupled code", "Reduced complexity" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "How do you define a method as abstract in Python?",
+    "answers": [ "def method(self):", "@abstractmethod", "#abstract", "function()" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which keyword prevents a class from being instantiated directly in Java?",
+    "answers": [ "static", "final", "abstract", "public" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which access modifier is often used with abstract members?",
+    "answers": [ "public", "private", "internal", "protected" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In C++, how do you prevent a class from being abstract?",
+    "answers": [ "Remove pure virtuals", "Make all methods static", "Use sealed keyword", "Add virtual methods" ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "What is abstraction's primary role in user interface design?",
+    "answers": [ "To expose internal logic", "To simplify interaction", "To hide security flaws", "To display backend code" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Can interfaces in Java contain default methods?",
+    "answers": [ "Yes", "No", "Only in Java 6", "Only if static" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Java"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "typeSubject": "Abstraction",
+  "allSubject": [
+    "Abstraction means focusing on what an object does, instead of how it does it. It hides unnecessary details and shows only essential features.",
+    "In real life, when you drive a car, you use the steering wheel and pedals without knowing the internal engine mechanics. That’s abstraction.",
+    "In programming, abstraction is done using abstract classes or interfaces. They define what should be done, but not how.",
+    "Abstraction helps reduce complexity. It allows developers to build complex systems by working with simplified models.",
+    "Using abstraction, programmers can design systems that are easy to maintain and extend without changing core logic."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "typeSubject": "Inheritance",
+  "allSubject": [
+    "Inheritance allows one class to use the properties and methods of another class. The class that inherits is called the child or derived class.",
+    "The original class is called the parent or base class. It contains common logic that can be reused by child classes.",
+    "For example, a `Vehicle` class might have a method `Move()`. A `Car` class can inherit from `Vehicle` and use `Move()` without writing it again.",
+    "Inheritance reduces duplicate code and allows for better organization of related classes.",
+    "Child classes can also override methods from the base class to provide specific behavior."
+  ]
+}

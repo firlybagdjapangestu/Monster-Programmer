@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce02fc4033c7bce4ba931d5e6026fd40, type: 3}
+  m_Name: Polymorphism_MaterialStudy
+  m_EditorClassIdentifier: 
+  typeSubject: 3
+  clip: {fileID: 32900000, guid: c5f20e843c2ef364eb9db4cbacb592c4, type: 3}
+  allSubject:
+  - Polymorphism means 'many forms'. It allows the same method name to behave differently
+    based on the object calling it.
+  - For example, a method called `Speak()` might make a Dog bark and a Cat meow.
+    Same method name, different behavior.
+  - 'There are two types of polymorphism: Compile-time (method overloading) and Runtime
+    (method overriding).'
+  - Method overloading happens when multiple methods have the same name but different
+    parameters.
+  - Method overriding happens when a child class redefines a method from the parent
+    class.
+  - Polymorphism improves code flexibility and makes programs easier to extend and
+    maintain.

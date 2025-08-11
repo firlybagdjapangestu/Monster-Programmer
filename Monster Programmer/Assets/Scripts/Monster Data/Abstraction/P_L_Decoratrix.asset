@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0859645d1ec8e4ab0333202c2585ae, type: 3}
+  m_Name: P_L_Decoratrix
+  m_EditorClassIdentifier: 
+  monsterID: Abstraction_P_L_Decoratrix
+  monsterName: Decoratrix
+  frontSpriteMonster: {fileID: -8608985624844978483, guid: 2aa21a23a54a33f408d63185a891d96d, type: 3}
+  backSpriteMonster: {fileID: 0}
+  type: 0
+  rarity: 2
+  spawnMap: 2
+  attack: 90
+  defense: 145
+  speed: 95
+  questionData:
+  - {fileID: 11400000, guid: 08c0b0955fd342645b312d6f5c245715, type: 2}
+  - {fileID: 11400000, guid: 978d6b9d4ab940c439eae847f9a56164, type: 2}
+  - {fileID: 11400000, guid: a572a181f7a2adf459ff21c6e286ab66, type: 2}
+  - {fileID: 11400000, guid: 58b0ff563a4dddf4f807ba535b8c32b6, type: 2}
+  - {fileID: 11400000, guid: 93366092005c19c43b104e50ef47a256, type: 2}
+  - {fileID: 11400000, guid: 3b88a1d80d06b7f47a05593715a4ebcf, type: 2}
+  - {fileID: 11400000, guid: 7f67c635753c2e8458c0b65e38bb5cf8, type: 2}
+  - {fileID: 11400000, guid: b962b2b355c53e9449e1330928ee3a41, type: 2}
+  - {fileID: 11400000, guid: c3fcb13cba16a7a428a315b79fcd051b, type: 2}
+  - {fileID: 11400000, guid: 770672f63b116374897c7963dc525d5c, type: 2}
+  - {fileID: 11400000, guid: 6a1a926b3e71fe548a907aedac0e4396, type: 2}
+  - {fileID: 11400000, guid: f2f556bb073015a4db57188060db421b, type: 2}
+  - {fileID: 11400000, guid: f7f22f62c06b99c44a0a3b8da7b5d496, type: 2}
+  - {fileID: 11400000, guid: 00e41f67c583c454689b3772dc573080, type: 2}
+  - {fileID: 11400000, guid: af9a651a079688749a2bad8ff29fb7d0, type: 2}
+  - {fileID: 11400000, guid: a6435c2044f4b0d47b86e95baed63977, type: 2}
+  - {fileID: 11400000, guid: 3c7a3b235574ed240950b37a15de09fc, type: 2}
+  - {fileID: 11400000, guid: 5e6cef5172ed3984fb7d6382ab0c87b2, type: 2}
+  - {fileID: 11400000, guid: 73d5781b6b6a6b54aa3012ff4c0667df, type: 2}
+  - {fileID: 11400000, guid: e896ddcc838e9054c8f79a535b54859a, type: 2}
+  - {fileID: 11400000, guid: e85090e454c8d284997623cfc3bb9c96, type: 2}
+  - {fileID: 11400000, guid: 3bc46dc37d1bf574ebaac53041f6c49d, type: 2}
+  - {fileID: 11400000, guid: 06ed7c47612280341997d59b5df59537, type: 2}
+  - {fileID: 11400000, guid: 40ec87f31f62c3f4ca033464e0b14a35, type: 2}
+  - {fileID: 11400000, guid: 91ad4a3d6611a5c4c9158bd539df7523, type: 2}
+  - {fileID: 11400000, guid: fa11fc1f3e1023e4f8c6752a7218c4e2, type: 2}
+  - {fileID: 11400000, guid: 0f4b4b9af8e468241ad7c37042e8fb51, type: 2}
+  - {fileID: 11400000, guid: d82b810a6b5cc8648808f01324838144, type: 2}
+  - {fileID: 11400000, guid: 179034714552d1f4a9942cdff6fa0637, type: 2}

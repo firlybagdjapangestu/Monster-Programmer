@@ -1,0 +1,321 @@
+[
+  {
+    "questionText": "What is abstraction in object-oriented programming?",
+    "answers": [
+      "Hiding internal details and showing only functionality",
+      "Copying code from another class",
+      "Making everything public",
+      "Converting data types"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which concept allows you to focus on 'what' an object does instead of 'how' it does it?",
+    "answers": [
+      "Encapsulation",
+      "Abstraction",
+      "Inheritance",
+      "Polymorphism"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which keyword is used in Java to define an abstract class?",
+    "answers": [
+      "virtual",
+      "abstract",
+      "interface",
+      "base"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "In C++, how do you create a pure virtual function?",
+    "answers": [
+      "By assigning 0 to a virtual function",
+      "By writing abstract before function",
+      "By using override",
+      "By declaring function without body"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which of the following is an example of abstraction?",
+    "answers": [
+      "Using a TV remote to change channels",
+      "Opening the back of the TV to wire it",
+      "Assembling the TV circuit",
+      "Reading the TV manual"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, how do you import abstract base classes?",
+    "answers": [
+      "from abc import ABC",
+      "import abstract",
+      "from base import Abstract",
+      "from object import ABCClass"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which method must be implemented in a class that inherits from an abstract class?",
+    "answers": [
+      "All methods",
+      "Only abstract methods",
+      "Constructor only",
+      "Static methods"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Can you instantiate an abstract class in Java?",
+    "answers": [
+      "Yes",
+      "Only once",
+      "No",
+      "Only with reflection"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "In C++, what happens if a class contains at least one pure virtual function?",
+    "answers": [
+      "It must be a static class",
+      "It becomes an abstract class",
+      "It cannot have member variables",
+      "It throws a compile error"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Abstraction is useful because it:",
+    "answers": [
+      "Hides unnecessary complexity",
+      "Increases memory usage",
+      "Slows down code",
+      "Exposes all code to users"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, what does the @abstractmethod decorator indicate?",
+    "answers": [
+      "A method must be implemented in subclass",
+      "The method is private",
+      "The method is static",
+      "The method is optional"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which is NOT an advantage of abstraction?",
+    "answers": [
+      "Code clarity",
+      "Encourages modularity",
+      "Better security",
+      "Slower performance"
+    ],
+    "indexRightAnswer": 3,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What keyword is used in C++ for abstract classes?",
+    "answers": [
+      "virtual",
+      "pure",
+      "interface",
+      "There is no specific keyword"
+    ],
+    "indexRightAnswer": 3,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "In Java, abstract classes can have:",
+    "answers": [
+      "Only abstract methods",
+      "Only static methods",
+      "Both abstract and concrete methods",
+      "Only constructors"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Why can't we instantiate an abstract class?",
+    "answers": [
+      "Because it has no memory",
+      "Because it lacks complete implementation",
+      "Because it's private",
+      "Because it's static"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, which module supports abstract base classes?",
+    "answers": [
+      "abc",
+      "base",
+      "abstract",
+      "foundation"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which concept helps in defining templates for future classes?",
+    "answers": [
+      "Polymorphism",
+      "Encapsulation",
+      "Abstraction",
+      "Composition"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What happens if an abstract method is not implemented in subclass?",
+    "answers": [
+      "Code runs normally",
+      "Compile or runtime error",
+      "It becomes static",
+      "It returns None"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, abstract methods:",
+    "answers": [
+      "Have no body",
+      "Are always private",
+      "Must be static",
+      "Are final"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which of the following best describes abstraction?",
+    "answers": [
+      "Writing long code",
+      "Focusing on user interface only",
+      "Hiding implementation and showing functionality",
+      "Making code visible to everyone"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Is it mandatory to override pure virtual functions in C++?",
+    "answers": [
+      "Yes, or the class remains abstract",
+      "No, only if needed",
+      "Only in constructors",
+      "Depends on the compiler"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which of these supports abstraction?",
+    "answers": [
+      "Interfaces",
+      "Loops",
+      "Switch statements",
+      "Goto"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, can a class be both abstract and contain concrete methods?",
+    "answers": [
+      "Yes",
+      "No",
+      "Only in Python 2",
+      "Only with metaclasses"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which of the following is FALSE about abstraction?",
+    "answers": [
+      "It simplifies code",
+      "It hides details",
+      "It always reduces performance",
+      "It makes code reusable"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is the purpose of abstract classes?",
+    "answers": [
+      "To provide a blueprint for other classes",
+      "To execute code immediately",
+      "To store data only",
+      "To create database tables"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which file type typically contains abstract class definitions?",
+    "answers": [
+      ".txt",
+      ".exe",
+      ".cs or .java",
+      ".xml"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "An interface in Java is a form of:",
+    "answers": [
+      "Encapsulation",
+      "Polymorphism",
+      "Abstraction",
+      "Composition"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which method type does NOT belong in an abstract class?",
+    "answers": [
+      "Abstract method",
+      "Virtual method",
+      "Static method",
+      "Constructor"
+    ],
+    "indexRightAnswer": 3,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Can we define constructors in abstract classes in C++?",
+    "answers": [
+      "Yes",
+      "No",
+      "Only static ones",
+      "Only virtual constructors"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "monsterID": "Inheritance_C_C_Bitling",
+    "monsterName": "Bitling",
+    "type": "CPlusPlus",
+    "rarity": "Common",
+    "attack": 52,
+    "defense": 72,
+    "speed": 60
+  },
+  {
+    "monsterID": "Inheritance_J_C_Beanling",
+    "monsterName": "Beanling",
+    "type": "Java",
+    "rarity": "Common",
+    "attack": 47,
+    "defense": 78,
+    "speed": 58
+  },
+  {
+    "monsterID": "Inheritance_P_C_Hatchling.py",
+    "monsterName": "Hatchling.py",
+    "type": "Python",
+    "rarity": "Common",
+    "attack": 55,
+    "defense": 70,
+    "speed": 50
+  },
+  {
+    "monsterID": "Inheritance_C_R_Structus Rex",
+    "monsterName": "Structus Rex",
+    "type": "CPlusPlus",
+    "rarity": "Rare",
+    "attack": 78,
+    "defense": 110,
+    "speed": 67
+  },
+  {
+    "monsterID": "Inheritance_J_R_Overpriest",
+    "monsterName": "Overpriest",
+    "type": "Java",
+    "rarity": "Rare",
+    "attack": 74,
+    "defense": 105,
+    "speed": 65
+  },
+  {
+    "monsterID": "Inheritance_P_R_Multisnek",
+    "monsterName": "Multisnek",
+    "type": "Python",
+    "rarity": "Rare",
+    "attack": 82,
+    "defense": 120,
+    "speed": 70
+  },
+  {
+    "monsterID": "Inheritance_C_L_Core Titan",
+    "monsterName": "Core Titan",
+    "type": "CPlusPlus",
+    "rarity": "Legendary",
+    "attack": 95,
+    "defense": 145,
+    "speed": 90
+  },
+  {
+    "monsterID": "Inheritance_J_L_Hierarchy King",
+    "monsterName": "Hierarchy King",
+    "type": "Java",
+    "rarity": "Legendary",
+    "attack": 92,
+    "defense": 138,
+    "speed": 85
+  },
+  {
+    "monsterID": "Inheritance_P_L_Grand Oracle.py",
+    "monsterName": "Grand Oracle.py",
+    "type": "Python",
+    "rarity": "Legendary",
+    "attack": 98,
+    "defense": 150,
+    "speed": 93
+  }
+]

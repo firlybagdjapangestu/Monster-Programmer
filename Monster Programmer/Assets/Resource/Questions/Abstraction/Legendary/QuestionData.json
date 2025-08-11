@@ -1,0 +1,321 @@
+[
+  {
+    "questionText": "What is the main advantage of using abstraction in programming?",
+    "answers": [
+      "To increase memory usage",
+      "To make code more complex",
+      "To hide implementation details and reduce complexity",
+      "To remove bugs"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, which keyword is used to declare an abstract class?",
+    "answers": [
+      "virtual",
+      "interface",
+      "abstract",
+      "class"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which of the following is an example of abstraction in Python?",
+    "answers": [
+      "Defining variables globally",
+      "Using lambda functions",
+      "Creating abstract base classes using ABC module",
+      "Printing output to console"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which concept allows programmers to focus on 'what' an object does instead of 'how' it does it?",
+    "answers": [
+      "Inheritance",
+      "Abstraction",
+      "Encapsulation",
+      "Polymorphism"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In C++, which of these can be considered abstract?",
+    "answers": [
+      "A class with only private methods",
+      "A class with a virtual function set to 0",
+      "A class without a constructor",
+      "Any struct"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "How does abstraction contribute to security in software?",
+    "answers": [
+      "By making all data public",
+      "By removing access control",
+      "By exposing only necessary features",
+      "By logging all activities"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which design principle is most aligned with abstraction?",
+    "answers": [
+      "Keep It Simple Stupid (KISS)",
+      "Don't Repeat Yourself (DRY)",
+      "Separation of Concerns (SoC)",
+      "Write Everything Twice (WET)"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, how do you declare an abstract method?",
+    "answers": [
+      "By using `def` and leaving it empty",
+      "By using `@abstractmethod` decorator",
+      "By commenting it",
+      "By using `virtual` keyword"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which of the following best describes abstract classes?",
+    "answers": [
+      "They cannot have any method",
+      "They must be instantiated",
+      "They can have both abstract and non-abstract methods",
+      "They are always private"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In C++, which keyword makes a function abstract?",
+    "answers": [
+      "static",
+      "pure_virtual",
+      "= 0",
+      "abstract"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which of these promotes abstraction the most?",
+    "answers": [
+      "Multiple inheritance",
+      "Composition over inheritance",
+      "Global variables",
+      "Console logging"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, what happens if a class contains an abstract method?",
+    "answers": [
+      "It compiles normally",
+      "The class must also be abstract",
+      "It can still be instantiated",
+      "The method is ignored"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Abstraction is most useful when:",
+    "answers": [
+      "The program is small",
+      "Users need to interact without knowing internal logic",
+      "Variables are global",
+      "Functions are nested"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which Python module is used to create abstract classes?",
+    "answers": [
+      "math",
+      "abc",
+      "random",
+      "os"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Why can abstract classes not be instantiated?",
+    "answers": [
+      "They are private",
+      "They contain incomplete implementation",
+      "They are not compiled",
+      "They are empty"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In C++, what type of method makes a class abstract?",
+    "answers": [
+      "Private static method",
+      "Pure virtual method",
+      "Constructor method",
+      "Template method"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "How does Java enforce abstraction?",
+    "answers": [
+      "By not allowing interfaces",
+      "By requiring final methods",
+      "Through abstract classes and interfaces",
+      "By avoiding polymorphism"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What is the role of abstraction in Object-Oriented Programming?",
+    "answers": [
+      "It hides internal details from the user",
+      "It duplicates logic",
+      "It increases complexity",
+      "It exposes private data"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which language supports abstraction through protocols or interfaces?",
+    "answers": [
+      "Python",
+      "Java",
+      "C++",
+      "All of them"
+    ],
+    "indexRightAnswer": 3,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which of these is NOT a benefit of abstraction?",
+    "answers": [
+      "Improved code readability",
+      "Security",
+      "Implementation independence",
+      "Increased memory usage"
+    ],
+    "indexRightAnswer": 3,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, interfaces provide what kind of abstraction?",
+    "answers": [
+      "Partial abstraction",
+      "No abstraction",
+      "Full abstraction",
+      "Runtime abstraction"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "When should you use an abstract class over an interface?",
+    "answers": [
+      "When you need multiple inheritance",
+      "When you have a base class with shared logic",
+      "When the class has no methods",
+      "When performance is not important"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which of the following is NOT abstract?",
+    "answers": [
+      "Interface with no methods",
+      "Abstract class with one method",
+      "Regular class",
+      "Class with abstract keyword"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "How does Python’s `abc` module ensure abstraction?",
+    "answers": [
+      "By hiding all variables",
+      "By enforcing method implementations",
+      "By preventing inheritance",
+      "By logging all methods"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What does '= 0' signify in a C++ class method declaration?",
+    "answers": [
+      "It is a default value",
+      "It is a pure virtual method",
+      "It disables the method",
+      "It ends the class"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Why is abstraction important for team collaboration?",
+    "answers": [
+      "It hides who wrote the code",
+      "It allows teams to work on modules independently",
+      "It reduces the number of files",
+      "It speeds up deployment"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which is true about abstract methods in Java?",
+    "answers": [
+      "They are private",
+      "They have a body",
+      "They must be overridden in a subclass",
+      "They are optional to implement"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What is the minimum requirement for a class to be considered abstract in Python?",
+    "answers": [
+      "At least one static method",
+      "One or more `@abstractmethod` decorated methods",
+      "It has a `__main__` method",
+      "All methods must be defined"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "How does abstraction relate to modularity?",
+    "answers": [
+      "They are unrelated",
+      "Abstraction breaks modularity",
+      "Abstraction improves modularity by isolating parts",
+      "Modularity depends on UI"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  }
+]

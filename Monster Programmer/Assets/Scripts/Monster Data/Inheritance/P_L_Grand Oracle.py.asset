@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0859645d1ec8e4ab0333202c2585ae, type: 3}
+  m_Name: P_L_Grand Oracle.py
+  m_EditorClassIdentifier: 
+  monsterID: Inheritance_P_L_Grand Oracle.py
+  monsterName: Grand Oracle.py
+  frontSpriteMonster: {fileID: -4060962780670240925, guid: f6636c6e09170744287758be186c0588, type: 3}
+  backSpriteMonster: {fileID: 0}
+  type: 0
+  rarity: 2
+  spawnMap: 1
+  attack: 98
+  defense: 150
+  speed: 93
+  questionData:
+  - {fileID: 11400000, guid: f69b029725a4d084da5c3d945d05c67a, type: 2}
+  - {fileID: 11400000, guid: 65d8fc411993baa44b3ef52c1ba0c5aa, type: 2}
+  - {fileID: 11400000, guid: cfe4957d833984341843949e9b79f068, type: 2}
+  - {fileID: 11400000, guid: 4d0f6d9674ce1454c870190340d26e8a, type: 2}
+  - {fileID: 11400000, guid: 8e649abb09a9a6a439b734f1e9828c34, type: 2}
+  - {fileID: 11400000, guid: 181050b18eb336943b89963f26a6973d, type: 2}
+  - {fileID: 11400000, guid: 70d3b6d93d6fb7d4496b8d03e5503999, type: 2}
+  - {fileID: 11400000, guid: d46f000eddbf6bd468d16f03578efe30, type: 2}
+  - {fileID: 11400000, guid: 2afe523ebd9c200468909cf6eb477c25, type: 2}
+  - {fileID: 11400000, guid: 7a64f267aad8d6547b8dc35e4dbcafe8, type: 2}
+  - {fileID: 11400000, guid: 294403f19411088439f6f965c17800d7, type: 2}
+  - {fileID: 11400000, guid: 9998ac09a3c54d4418b4d063c9931856, type: 2}
+  - {fileID: 11400000, guid: 8bf424602b0576144a65abd68fab33d8, type: 2}
+  - {fileID: 11400000, guid: 6c38c41504271524e8bd48fa69079e94, type: 2}
+  - {fileID: 11400000, guid: 477a6d176e2150e46815f3a0c955068c, type: 2}
+  - {fileID: 11400000, guid: 64dbeb3ae9783144bb29b8ea2a67a2f5, type: 2}
+  - {fileID: 11400000, guid: 08269c82ba3e2da4fa1d752ca0365425, type: 2}
+  - {fileID: 11400000, guid: 45f3179c2e330f64e87dabbe874db8d1, type: 2}
+  - {fileID: 11400000, guid: 6779f02366fc1bf4f8372e95aed69279, type: 2}
+  - {fileID: 11400000, guid: 31bde1329d00cc24b8b66b649928224e, type: 2}

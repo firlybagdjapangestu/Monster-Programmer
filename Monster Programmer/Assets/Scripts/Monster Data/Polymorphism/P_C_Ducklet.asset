@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0859645d1ec8e4ab0333202c2585ae, type: 3}
+  m_Name: P_C_Ducklet
+  m_EditorClassIdentifier: 
+  monsterID: Polymorphism_P_C_Ducklet
+  monsterName: Ducklet
+  frontSpriteMonster: {fileID: 221944858907048349, guid: 673a1f7301b33d94dbdc5dfd15b6de16, type: 3}
+  backSpriteMonster: {fileID: 0}
+  type: 0
+  rarity: 0
+  spawnMap: 3
+  attack: 53
+  defense: 70
+  speed: 52
+  questionData:
+  - {fileID: 11400000, guid: 3bf27db1d40c5e84cb1659b34b3d1629, type: 2}
+  - {fileID: 11400000, guid: 2df572536926f4949aee1d55b2a237f6, type: 2}
+  - {fileID: 11400000, guid: 45288300a5b6063449fe3a89c4e97b7d, type: 2}
+  - {fileID: 11400000, guid: 80e99dc6b75dec0458ff190d84f43e06, type: 2}
+  - {fileID: 11400000, guid: 88c5cda85a55512479dc49d9e6834fe8, type: 2}
+  - {fileID: 11400000, guid: 4f91723a3bf1b9c4391880a1f9ae9f6c, type: 2}
+  - {fileID: 11400000, guid: 02d86172fa0f4994e8a5d44bbfca29d1, type: 2}
+  - {fileID: 11400000, guid: c86fb4b5508efdf4595f9ccd0f4186d7, type: 2}
+  - {fileID: 11400000, guid: 83606f88f115d6a49a8bdf0986298ae5, type: 2}
+  - {fileID: 11400000, guid: 332f5f6f9b105c447a32a568d15aff89, type: 2}
+  - {fileID: 11400000, guid: 5094fd46326e7884d98e094f526cd39c, type: 2}
+  - {fileID: 11400000, guid: d007b285ed1e3b14fa32ea7d5664ae55, type: 2}
+  - {fileID: 11400000, guid: 92f1707946293ff4c8bba296fbee7070, type: 2}
+  - {fileID: 11400000, guid: e96782817eb60f441b29046c6322cb8c, type: 2}
+  - {fileID: 11400000, guid: dbc28634fa28ae749a42a968823c3e50, type: 2}
+  - {fileID: 11400000, guid: 71ec5c37f9e68cf4aa00cff3bf0622f3, type: 2}
+  - {fileID: 11400000, guid: 224b09e1b656b554984ea81047dd7e60, type: 2}
+  - {fileID: 11400000, guid: d98a84b4bd08c534fb643081f9293acb, type: 2}
+  - {fileID: 11400000, guid: 834c09841f1dcd944a34c88239adf26b, type: 2}
+  - {fileID: 11400000, guid: 159b71566aac7e94f8f13362626c293a, type: 2}
+  - {fileID: 11400000, guid: c453fcd86f2cbe34f91086b10f4ba436, type: 2}
+  - {fileID: 11400000, guid: 2831fc5d54e44424b90fe721cccb6a15, type: 2}
+  - {fileID: 11400000, guid: e32fdca009b4e894caf2b727dc1e37af, type: 2}
+  - {fileID: 11400000, guid: 93e99cd7433bee942a8bf73c41f53059, type: 2}
+  - {fileID: 11400000, guid: 22243cb332f4096429df0fed524147c3, type: 2}

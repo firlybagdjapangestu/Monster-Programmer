@@ -1,0 +1,122 @@
+[
+  {
+    "questionText": "What is the main purpose of encapsulation in OOP?",
+    "answers": [ "To protect data from unauthorized access", "To execute multiple methods at once", "To speed up program execution", "To reduce memory usage" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, which keyword is used to create getter and setter methods automatically using Lombok?",
+    "answers": [ "@Getter", "@Setter", "@Data", "@Encapsulate" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which of these is NOT an access modifier in C++?",
+    "answers": [ "private", "internal", "public", "protected" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Encapsulation helps in hiding the ______ of an object from outside access.",
+    "answers": [ "methods", "data implementation", "syntax", "constructor" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, how do you indicate a variable is intended to be private?",
+    "answers": [ "Prefix with __ (double underscore)", "Use the private keyword", "Prefix with _ (single underscore)", "Use @private annotation" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which method type is used to read a private field value?",
+    "answers": [ "Modifier method", "Getter method", "Setter method", "Accessor method" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In encapsulation, 'setters' are primarily used for what?",
+    "answers": [ "Modifying private data", "Accessing public methods", "Hiding data structures", "Creating new objects" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which keyword in Java restricts access to within the same package?",
+    "answers": [ "protected", "public", "default", "private" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Encapsulation is achieved mainly using which feature?",
+    "answers": [ "Access modifiers", "Polymorphism", "Interfaces", "Inheritance" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In C++, which access modifier allows members to be accessed only by derived classes and the same class?",
+    "answers": [ "public", "protected", "private", "friend" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "What does the term 'data hiding' in encapsulation refer to?",
+    "answers": [ "Preventing users from viewing data", "Making code run faster", "Restricting direct access to variables", "Encrypting data in memory" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which of these is a real-world example of encapsulation?",
+    "answers": [ "A TV remote hiding internal circuits", "A car without wheels", "An open source project", "A light bulb with no cover" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, what is the convention to make a method private?",
+    "answers": [ "Prefix with a double underscore", "Add the private keyword", "Use @private decorator", "Prefix with triple underscore" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Encapsulation allows changes to the internal code without affecting?",
+    "answers": [ "The external interface", "The CPU speed", "The compiler settings", "The internet connection" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which statement is true about encapsulation?",
+    "answers": [ "It groups related variables and methods together", "It makes code slower", "It prevents object creation", "It replaces polymorphism" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which Java access modifier means 'accessible from anywhere'?",
+    "answers": [ "private", "protected", "public", "default" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Why are getter and setter methods used?",
+    "answers": [ "To create new objects", "To read and update private variables", "To execute loops faster", "To connect databases" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which of the following BEST describes encapsulation?",
+    "answers": [ "Wrapping data and methods into one unit", "Using multiple classes together", "Repeating code in different files", "Writing code in uppercase" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In C++, which keyword allows a function outside the class to access private members?",
+    "answers": [ "friend", "public", "extern", "protected" ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Encapsulation ensures which benefit?",
+    "answers": [ "Better security and maintainability", "Faster compilation", "Less typing", "Automatic code formatting" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  }
+]

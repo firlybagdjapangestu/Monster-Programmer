@@ -1,0 +1,10 @@
+{
+  "typeSubject": "Encapsulation",
+  "allSubject": [
+    "Encapsulation means wrapping data (variables) and methods (functions) together inside a class.",
+    "It protects the internal state of an object from being accessed or modified directly. Instead, data is accessed through methods.",
+    "For example, instead of changing a person’s age directly, you use a method like `SetAge(int age)` to update it.",
+    "Encapsulation is achieved using access modifiers like `private`, `protected`, and `public`.",
+    "This principle improves security, prevents misuse, and keeps the code more organized and easier to manage."
+  ]
+}

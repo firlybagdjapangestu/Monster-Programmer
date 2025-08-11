@@ -1,0 +1,122 @@
+[
+  {
+    "questionText": "In multiple inheritance, a class can inherit from how many base classes in C++?",
+    "answers": [ "Only one", "Two", "Multiple", "None" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which keyword in Java prevents a class from being subclassed?",
+    "answers": [ "private", "final", "sealed", "protected" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What does the `super()` function do in Python inheritance?",
+    "answers": [ "Deletes parent class", "Initializes current class", "Calls constructor of parent class", "Ends the inheritance" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What is the main challenge with multiple inheritance?",
+    "answers": [ "More memory usage", "Name clashes", "Compiler errors", "Harder debugging" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which of the following inheritance types is not supported in Java?",
+    "answers": [ "Single", "Hierarchical", "Multiple (class-based)", "Multilevel" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "How does C++ resolve ambiguity in multiple inheritance?",
+    "answers": [ "Using final", "Using protected", "Using virtual inheritance", "Using friend functions" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "In Python, what type of inheritance allows a class to inherit from more than one class?",
+    "answers": [ "Single", "Hierarchical", "Multilevel", "Multiple" ],
+    "indexRightAnswer": 3,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which of the following is true about base and derived class constructors?",
+    "answers": [ "Derived constructors always call base constructors", "Base constructor must be static", "Derived class can't override base constructor", "Only one constructor allowed" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is the purpose of the `override` keyword in C++ inheritance?",
+    "answers": [ "To prevent overriding", "To mark virtual inheritance", "To clarify method overriding", "To inherit multiple classes" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "In Java, what happens if a subclass constructor does not call super() explicitly?",
+    "answers": [ "Error occurs", "Compiler calls super() automatically", "It crashes at runtime", "Only static variables are inherited" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which method is called when a subclass does not override a method from its parent?",
+    "answers": [ "Nothing is called", "The superclass method is used", "An exception is thrown", "The program crashes" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which Python function returns the method resolution order of a class?",
+    "answers": [ "mro()", "order()", "super()", "resolve()" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "In C++, what keyword is used to specify virtual base classes to solve the diamond problem?",
+    "answers": [ "override", "super", "virtual", "explicit" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which feature is introduced in Java 8 to allow multiple inheritance of behavior?",
+    "answers": [ "Interfaces", "Abstract Classes", "Default Methods", "Anonymous Classes" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "In inheritance, if a derived class does not have a constructor, which constructor is used?",
+    "answers": [ "None", "Destructor", "Base class constructor", "Default constructor" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is method hiding in Java inheritance?",
+    "answers": [ "Overriding method", "Static method with same name in subclass", "Private method in superclass", "None of the above" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "How is inheritance represented in UML diagrams?",
+    "answers": [ "Solid arrow with open triangle", "Dashed arrow", "Double lines", "Circular arrow" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In C++, if a base class has a virtual destructor, why is it important?",
+    "answers": [ "It reduces memory", "Ensures derived destructor is called", "Improves speed", "No reason" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which of the following supports mixins for inheritance?",
+    "answers": [ "C++", "Java", "Python", "All of them" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which problem occurs when a class inherits from two classes that have a method with the same name?",
+    "answers": [ "Overloading", "Name Shadowing", "Diamond Problem", "Constructor Collision" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  }
+]

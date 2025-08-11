@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,10 +10,21 @@ public class GameData : MonoBehaviour
     public static MonsterData selectedPlayerMonster;
     public static MonsterData selectedEnemyMonster;
     public int level = 1;
+    public int currentXp = 0;
     public int captureBalls = 0;
+    public int Coins = 0;
 
     public List<MonsterData> availableMonsters = new List<MonsterData>();
     public List<MonsterData> ownedMonsters = new List<MonsterData>();
+
+    [Header("[Default Monster]")]
+    public MonsterData defaultMonster;
+
+    // KEY
+    const string COIN_KEY = "coins";
+    const string XP_KEY = "current_xp";
+
+    public event Action OnDataChange;
 
     private void Awake()
     {
@@ -47,6 +59,11 @@ public class GameData : MonoBehaviour
         }
     }
 
+    public void SetDefaultMonster()
+    {
+        ownedMonsters.Add(defaultMonster);
+    }
+
     public MonsterData SelectPlayerMonster(string id)
     {
         selectedPlayerMonster = availableMonsters.Find(monster => monster.monsterID == id);
@@ -62,7 +79,7 @@ public class GameData : MonoBehaviour
         return selectedPlayerMonster;
     }
 
-    public MonsterData SelectEnemyMonster(string id)
+    public void SelectEnemyMonster(string id)
     {
         selectedEnemyMonster = availableMonsters.Find(monster => monster.monsterID == id);
         if (selectedEnemyMonster != null)
@@ -74,7 +91,6 @@ public class GameData : MonoBehaviour
         {
             Debug.LogWarning($"Enemy monster with ID {id} not found in available monsters.");
         }
-        return selectedEnemyMonster;
     }
 
 
@@ -99,6 +115,8 @@ public class GameData : MonoBehaviour
     {
         PlayerPrefs.SetInt("Level", level);
         PlayerPrefs.SetInt("CaptureBalls", captureBalls);
+        PlayerPrefs.SetInt(COIN_KEY, Coins);
+        PlayerPrefs.SetInt(XP_KEY, currentXp);
 
         // Simpan ID monster yang dimiliki dalam bentuk string  
         List<string> ownedMonsterIDs = new List<string>();
@@ -121,6 +139,7 @@ public class GameData : MonoBehaviour
         string joinedRemovedIDs = string.Join(",", removedMonsterIDs);
         PlayerPrefs.SetString("RemovedMonsterIDs", joinedRemovedIDs);
 
+        OnDataChange?.Invoke();
         PlayerPrefs.Save();
         Debug.Log("Game Saved!");
     }
@@ -128,7 +147,9 @@ public class GameData : MonoBehaviour
     public void LoadGame()
     {
         level = PlayerPrefs.GetInt("Level", 1);
-        captureBalls = PlayerPrefs.GetInt("CaptureBalls", 0);
+        captureBalls = PlayerPrefs.GetInt("CaptureBalls", 10);
+        Coins = PlayerPrefs.GetInt(COIN_KEY, 100);
+        currentXp = PlayerPrefs.GetInt(XP_KEY, 0);
 
         string savedIDs = PlayerPrefs.GetString("OwnedMonsterIDs", "");
         ownedMonsters.Clear();
@@ -154,6 +175,15 @@ public class GameData : MonoBehaviour
         }
 
         Debug.Log("Game Loaded!");
+
+        // add default monster is not have anyone
+        if (ownedMonsters.Count <=  0 && defaultMonster != null)
+        {
+            ownedMonsters.Add(defaultMonster);
+        }
+
+        OnDataChange?.Invoke();
+
     }
 
     public void ResetSave()
@@ -161,7 +191,10 @@ public class GameData : MonoBehaviour
         PlayerPrefs.DeleteAll();
         ownedMonsters.Clear();
         level = 1;
-        captureBalls = 0;
+        captureBalls = 1;
         Debug.Log("Save reset.");
+
+        OnDataChange?.Invoke();
+
     }
 }

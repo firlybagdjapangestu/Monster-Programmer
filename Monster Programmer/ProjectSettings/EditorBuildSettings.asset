@@ -6,8 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4844cce39416d47448789965eee15e61
+  - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/FightScene.unity
+    guid: e05565254e3e31a4f9f3c583f38ae7db
+  - enabled: 1
+    path: Assets/Scenes/EncapsulationMap.unity
+    guid: e45e344349c15ce498f310ce57c558cc
+  - enabled: 1
+    path: Assets/Scenes/Abstraction.unity
+    guid: 473bc1231355aa047a80c793654d5829
+  - enabled: 1
+    path: Assets/Scenes/Polymorphism.unity
+    guid: 1b94df98214d60d499cdd1a869d0b871
+  - enabled: 1
+    path: Assets/Scenes/Inheritance.unity
+    guid: 38548388382012a498ea2e21c453df79
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

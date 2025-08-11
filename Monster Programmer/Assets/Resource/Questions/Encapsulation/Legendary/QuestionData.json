@@ -1,0 +1,122 @@
+[
+  {
+    "questionText": "In C++, what keyword is often used with encapsulation to allow controlled access to private members?",
+    "answers": [ "public", "friend", "this", "struct" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which best describes the main advantage of encapsulation?",
+    "answers": [ "It allows multiple inheritance", "It hides internal implementation details", "It increases memory usage", "It automatically optimizes code" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, what is the typical method naming convention to access a private field?",
+    "answers": [ "getter and setter", "accessor and mutator", "field reader and writer", "extractor and loader" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which of the following is NOT related to encapsulation?",
+    "answers": [ "Private fields", "Public setters", "Inheritance", "Data hiding" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, which convention is commonly used to indicate a private attribute?",
+    "answers": [ "Prefix with _ (underscore)", "Use 'private' keyword", "Prefix with #", "Use @private decorator" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Encapsulation helps maintain which key software engineering principle?",
+    "answers": [ "Low coupling", "Multiple threading", "High memory usage", "Operator overloading" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In C++, if you declare members as 'protected', who can access them?",
+    "answers": [ "Only the same class", "Same class and derived classes", "Everyone", "Only friend classes" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "What is a risk of exposing too many public setters for fields?",
+    "answers": [ "Memory leaks", "Loss of control over internal state", "Compilation error", "Faster execution" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which keyword in Java restricts a field to be accessed only within the same package?",
+    "answers": [ "protected", "default (no modifier)", "internal", "private" ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "In Python, how do you create a property that controls access to a private variable?",
+    "answers": [ "Using @property decorator", "Using private()", "Using getter()", "Using access()" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which scenario best demonstrates encapsulation?",
+    "answers": [ "A class exposing only methods to interact with its data", "A program with many global variables", "A function calling itself recursively", "A static method accessing constants" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In C++, 'struct' members are by default:",
+    "answers": [ "private", "protected", "public", "friend" ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Why is encapsulation important in large projects?",
+    "answers": [ "It simplifies debugging and reduces dependencies", "It increases file size", "It enforces single-threading", "It ensures no compilation warnings" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which of the following is true about encapsulation?",
+    "answers": [ "It binds data and methods together", "It prevents object creation", "It requires multiple inheritance", "It uses only public fields" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, marking a field 'final' while keeping it private ensures:",
+    "answers": [ "The field cannot be reassigned", "The field is public", "The field can be accessed by all subclasses", "The field uses less memory" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What is the main purpose of using private fields with public getters/setters?",
+    "answers": [ "To hide implementation and allow validation logic", "To make variables immutable", "To reduce compilation time", "To allow direct field access" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which principle is closely linked to encapsulation?",
+    "answers": [ "Information hiding", "Multiple dispatch", "Dynamic typing", "Memory alignment" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, a name mangled variable like '__var' can be accessed as:",
+    "answers": [ "_ClassName__var", "__var", "_var", "ClassName_var" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "In C++, making member variables 'private' enforces:",
+    "answers": [ "Only methods of the class can access them", "Faster execution", "More memory usage", "Automatic type casting" ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which of these is a disadvantage of breaking encapsulation?",
+    "answers": [ "Tight coupling between components", "Reduced file size", "Improved readability", "Faster compilation" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "typeSubject": "Polymorphism",
+  "allSubject": [
+    "Polymorphism means 'many forms'. It allows the same method name to behave differently based on the object calling it.",
+    "For example, a method called `Speak()` might make a Dog bark and a Cat meow. Same method name, different behavior.",
+    "There are two types of polymorphism: Compile-time (method overloading) and Runtime (method overriding).",
+    "Method overloading happens when multiple methods have the same name but different parameters.",
+    "Method overriding happens when a child class redefines a method from the parent class.",
+    "Polymorphism improves code flexibility and makes programs easier to extend and maintain."
+  ]
+}

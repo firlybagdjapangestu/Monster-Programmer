@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd0859645d1ec8e4ab0333202c2585ae, type: 3}
+  m_Name: Java-C JEncapino
+  m_EditorClassIdentifier: 
+  monsterID: Encapsulation-Java-C
+  monsterName: JEncapino
+  frontSpriteMonster: {fileID: -6718942911498871682, guid: 1a21b64254d3e19448072932fd3f5531, type: 3}
+  backSpriteMonster: {fileID: 2804888758093823890, guid: 1a21b64254d3e19448072932fd3f5531, type: 3}
+  type: 1
+  rarity: 0
+  spawnMap: 0
+  attack: 50
+  defense: 70
+  speed: 60
+  questionData:
+  - {fileID: 11400000, guid: 482419712b7eec44c87b23c591f6b039, type: 2}
+  - {fileID: 11400000, guid: d90670f0e8e6c354cbc6315d6d743802, type: 2}
+  - {fileID: 11400000, guid: 4c5ad8112619d804382487188a4666e3, type: 2}
+  - {fileID: 11400000, guid: 80dbbb3a4f09ca9409369cba9c67fc29, type: 2}
+  - {fileID: 11400000, guid: afe8c69a270f5174ba7cfe62be20da4b, type: 2}
+  - {fileID: 11400000, guid: 56009a1e81892e346b10b01a3ca4f48b, type: 2}
+  - {fileID: 11400000, guid: 5507a49beaa4fd64393651632168fe54, type: 2}
+  - {fileID: 11400000, guid: 31c21b74b98efa0418b1bdcf9c6f2dd6, type: 2}
+  - {fileID: 11400000, guid: fdd5774b1861b664c840d360685ab814, type: 2}
+  - {fileID: 11400000, guid: fd16ef4b6304b1149a9918f29e87aa4f, type: 2}
+  - {fileID: 11400000, guid: 6a60c353c993df741867ce24a5076c52, type: 2}
+  - {fileID: 11400000, guid: edbe22abdecf44143b85e3deacdfe976, type: 2}
+  - {fileID: 11400000, guid: 4eb59ea5f620e08409c6fd05fa777587, type: 2}
+  - {fileID: 11400000, guid: c11d4dcb757c74f4783745b289b5907a, type: 2}
+  - {fileID: 11400000, guid: b131c0ad4aed7284d8f02c4e166f5b26, type: 2}
+  - {fileID: 11400000, guid: 12b8f864c358f25489d7c10831624bb9, type: 2}
+  - {fileID: 11400000, guid: 450346f17bb22014b9e64bb59a7edf73, type: 2}
+  - {fileID: 11400000, guid: bb0df53e1998e294fa411ea5b76f56bf, type: 2}
+  - {fileID: 11400000, guid: ee5fe410d4de10b4090b89bd15654110, type: 2}
+  - {fileID: 11400000, guid: 165b36aafc27a7547870db7614ee12de, type: 2}

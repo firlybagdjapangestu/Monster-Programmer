@@ -1,0 +1,83 @@
+[
+  {
+    "monsterID": "Polymorphism_C_C_Castbug",
+    "monsterName": "Castbug",
+    "type": "CPlusPlus",
+    "rarity": "Common",
+    "attack": 50,
+    "defense": 68,
+    "speed": 58
+  },
+  {
+    "monsterID": "Polymorphism_J_C_Overloadling",
+    "monsterName": "Overloadling",
+    "type": "Java",
+    "rarity": "Common",
+    "attack": 45,
+    "defense": 74,
+    "speed": 55
+  },
+  {
+    "monsterID": "Polymorphism_P_C_Ducklet",
+    "monsterName": "Ducklet",
+    "type": "Python",
+    "rarity": "Common",
+    "attack": 53,
+    "defense": 70,
+    "speed": 52
+  },
+  {
+    "monsterID": "Polymorphism_C_R_VirtualCore",
+    "monsterName": "VirtualCore",
+    "type": "CPlusPlus",
+    "rarity": "Rare",
+    "attack": 80,
+    "defense": 112,
+    "speed": 72
+  },
+  {
+    "monsterID": "Polymorphism_J_R_Dispatch Wraith",
+    "monsterName": "Dispatch Wraith",
+    "type": "Java",
+    "rarity": "Rare",
+    "attack": 76,
+    "defense": 108,
+    "speed": 69
+  },
+  {
+    "monsterID": "Polymorphism_P_R_LambdaMorph",
+    "monsterName": "LambdaMorph",
+    "type": "Python",
+    "rarity": "Rare",
+    "attack": 84,
+    "defense": 115,
+    "speed": 75
+  },
+  {
+    "monsterID": "Polymorphism_C_L_Union Fiend",
+    "monsterName": "Union Fiend",
+    "type": "CPlusPlus",
+    "rarity": "Legendary",
+    "attack": 96,
+    "defense": 148,
+    "speed": 92
+  },
+  {
+    "monsterID": "Polymorphism_J_L_Interface Shifter",
+    "monsterName": "Interface Shifter",
+    "type": "Java",
+    "rarity": "Legendary",
+    "attack": 93,
+    "defense": 142,
+    "speed": 89
+  },
+  {
+    "monsterID": "Polymorphism_P_L_Morphqueen.py",
+    "monsterName": "Morphqueen.py",
+    "type": "Python",
+    "rarity": "Legendary",
+    "attack": 99,
+    "defense": 150,
+    "speed": 95
+  }
+]

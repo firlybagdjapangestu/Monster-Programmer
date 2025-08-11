@@ -1,0 +1,110 @@
+[
+  {
+    "monsterID": "Abstraction_C_C_NullClaw",
+    "monsterName": "NullClaw",
+    "type": "CPlusPlus",
+    "rarity": "Common",
+    "attack": 55,
+    "defense": 110,
+    "speed": 60,
+    "frontSpriteMonster": null,
+    "backSpriteMonster": null,
+    "questionData": []
+  },
+  {
+    "monsterID": "Abstraction_J_C_InterfaceImp",
+    "monsterName": "Interface Imp",
+    "type": "Java",
+    "rarity": "Common",
+    "attack": 60,
+    "defense": 95,
+    "speed": 70,
+    "frontSpriteMonster": null,
+    "backSpriteMonster": null,
+    "questionData": []
+  },
+  {
+    "monsterID": "Abstraction_P_C_Duckling",
+    "monsterName": "Duckling",
+    "type": "Python",
+    "rarity": "Common",
+    "attack": 50,
+    "defense": 100,
+    "speed": 80,
+    "frontSpriteMonster": null,
+    "backSpriteMonster": null,
+    "questionData": []
+  },
+  {
+    "monsterID": "Abstraction_C_R_MemLeak",
+    "monsterName": "MemLeak",
+    "type": "CPlusPlus",
+    "rarity": "Rare",
+    "attack": 75,
+    "defense": 120,
+    "speed": 70,
+    "frontSpriteMonster": null,
+    "backSpriteMonster": null,
+    "questionData": []
+  },
+  {
+    "monsterID": "Abstraction_J_R_Abstractor",
+    "monsterName": "Abstractor",
+    "type": "Java",
+    "rarity": "Rare",
+    "attack": 85,
+    "defense": 105,
+    "speed": 90,
+    "frontSpriteMonster": null,
+    "backSpriteMonster": null,
+    "questionData": []
+  },
+  {
+    "monsterID": "Abstraction_P_R_MetaWitch",
+    "monsterName": "MetaWitch",
+    "type": "Python",
+    "rarity": "Rare",
+    "attack": 80,
+    "defense": 115,
+    "speed": 75,
+    "frontSpriteMonster": null,
+    "backSpriteMonster": null,
+    "questionData": []
+  },
+  {
+    "monsterID": "Abstraction_C_L_VoidCore",
+    "monsterName": "VoidCore",
+    "type": "CPlusPlus",
+    "rarity": "Legendary",
+    "attack": 95,
+    "defense": 140,
+    "speed": 85,
+    "frontSpriteMonster": null,
+    "backSpriteMonster": null,
+    "questionData": []
+  },
+  {
+    "monsterID": "Abstraction_J_L_InterfaceLord",
+    "monsterName": "InterfaceLord",
+    "type": "Java",
+    "rarity": "Legendary",
+    "attack": 100,
+    "defense": 135,
+    "speed": 90,
+    "frontSpriteMonster": null,
+    "backSpriteMonster": null,
+    "questionData": []
+  },
+  {
+    "monsterID": "Abstraction_P_L_Decoratrix",
+    "monsterName": "Decoratrix",
+    "type": "Python",
+    "rarity": "Legendary",
+    "attack": 90,
+    "defense": 145,
+    "speed": 95,
+    "frontSpriteMonster": null,
+    "backSpriteMonster": null,
+    "questionData": []
+  }
+]

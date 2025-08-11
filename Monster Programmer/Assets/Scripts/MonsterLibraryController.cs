@@ -3,13 +3,15 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
 using System.Linq;
+using Manager;
 
 public class MonsterLibraryController : MonoBehaviour
 {
-    [SerializeField] private Button[] monsterButton;
-    [SerializeField] private Image[] monsterImage;
-    [SerializeField] private TextMeshProUGUI[] monsterNameText;
+    [Header("[Reference]")]
+    [SerializeField] private GameObject buttonTemplate;
+    [SerializeField] private Transform parentSpawn;
 
+    [Header("[Another]")]
     [SerializeField] private Image monsterImageSelected;
     [SerializeField] private TextMeshProUGUI monsterNameTextSelected;
     [SerializeField] private Slider statusSpeedMonster;
@@ -53,36 +55,37 @@ public class MonsterLibraryController : MonoBehaviour
         SetupMonsterInfo(filtered);
     }
 
-
-
-
-
     private void SetupMonsterInfo(MonsterData[] monsters)
     {
-        for (int i = 0; i < monsters.Length && i < monsterButton.Length; i++)
+        if (GameData.Instance.ownedMonsters == null || GameData.Instance.ownedMonsters.Count <= 0)
+        {
+            GameData.Instance.SetDefaultMonster();
+        }
+
+        DestroyAllChildren(parentSpawn);
+        GameObject g;
+        Button actionButton;
+
+        for (int i = 0; i < monsters.Length; i++)
         {
             int index = i;
-            monsterImage[i].sprite = monsters[i].frontSpriteMonster;
-            monsterNameText[i].text = monsters[i].monsterName;
+            g = Instantiate(buttonTemplate, parentSpawn);
+
+            g.transform.GetChild(0).GetComponent<Image>().sprite = monsters[i].frontSpriteMonster;
+            g.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = monsters[i].monsterName;
 
             bool isOwned = GameData.Instance.ownedMonsters.Exists(m => m.monsterID == monsters[i].monsterID);
-            monsterButton[i].interactable = isOwned;
+            actionButton = g.GetComponent<Button>();
+            actionButton.interactable = isOwned;
 
-            monsterButton[i].onClick.RemoveAllListeners();
+            actionButton.onClick.RemoveAllListeners();
             if (isOwned)
             {
-                monsterButton[i].onClick.AddListener(() => ChoiceMonster(monsters[index]));
+                actionButton.onClick.AddListener(() => ChoiceMonster(monsters[index]));
+                actionButton.onClick.AddListener(() => SoundManager.Instance?.PlaySoundEffect(0));
             }
         }
 
-        // Clear unused buttons
-        for (int i = monsters.Length; i < monsterButton.Length; i++)
-        {
-            monsterImage[i].sprite = null;
-            monsterNameText[i].text = string.Empty;
-            monsterButton[i].onClick.RemoveAllListeners();
-            monsterButton[i].interactable = false;
-        }
     }
 
     public void ChoiceMonster(MonsterData monsterData)
@@ -90,8 +93,10 @@ public class MonsterLibraryController : MonoBehaviour
         monsterImageSelected.sprite = monsterData.frontSpriteMonster;
         monsterNameTextSelected.text = monsterData.monsterName;
         statusSpeedMonster.value = monsterData.speed / topSpeed;
-        statusAttackMonster.value = monsterData.attack / topAttack;
-        statusDefenseMonster.value = monsterData.defense / topDefense;
+        statusAttackMonster.value = 
+            (monsterData.attack * LevelSystem.Instance.GetMultiplerValue(LevelSystem.TypeUpgrade.PlusAttackPercent)) / topAttack;
+        statusDefenseMonster.value = 
+            (monsterData.defense * LevelSystem.Instance.GetMultiplerValue(LevelSystem.TypeUpgrade.PlusDefendPercent)) / topDefense;
 
         confirmationButton.onClick.RemoveAllListeners();
         confirmationButton.onClick.AddListener(() => ConfirmationChoiceMonster(monsterData.monsterID));
@@ -100,5 +105,13 @@ public class MonsterLibraryController : MonoBehaviour
     public void ConfirmationChoiceMonster(string id)
     {
         GameData.Instance.SelectPlayerMonster(id);
+    }
+
+    public void DestroyAllChildren(Transform parent)
+    {
+        foreach (Transform child in parent)
+        {
+            Destroy(child.gameObject);
+        }
     }
 }

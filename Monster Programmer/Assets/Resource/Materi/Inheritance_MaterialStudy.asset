@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce02fc4033c7bce4ba931d5e6026fd40, type: 3}
+  m_Name: Inheritance_MaterialStudy
+  m_EditorClassIdentifier: 
+  typeSubject: 1
+  clip: {fileID: 32900000, guid: 476817809278b474a948f2241fb34761, type: 3}
+  allSubject:
+  - Inheritance allows one class to use the properties and methods of another class.
+    The class that inherits is called the child or derived class.
+  - The original class is called the parent or base class. It contains common logic
+    that can be reused by child classes.
+  - For example, a `Vehicle` class might have a method `Move()`. A `Car` class can
+    inherit from `Vehicle` and use `Move()` without writing it again.
+  - Inheritance reduces duplicate code and allows for better organization of related
+    classes.
+  - Child classes can also override methods from the base class to provide specific
+    behavior.

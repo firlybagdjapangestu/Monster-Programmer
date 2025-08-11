@@ -1,8 +1,13 @@
+using Manager;
+using System.Collections;
+using UI.Controll;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController Main;
+
     [Header("Movement Settings")]
     [SerializeField] private float speed = 5f;
 
@@ -14,12 +19,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AnimationClip walkBackAnimation;
     [SerializeField] private AnimationClip walkSideAnimation;
 
+    [Header("Audio")]
+    [SerializeField] private float delayPlay = 0.4f;
+    [SerializeField] private AudioClip[] stepClips;
+
     private InputSystem_Actions playerInput;
     private Vector2 movementInput = Vector2.zero;
     private IInteractable currentInteractable;
 
     private void Awake()
     {
+        Main = this;
+
         playerInput = new InputSystem_Actions();
         playerInput.Player.Enable();
 
@@ -27,7 +38,12 @@ public class PlayerController : MonoBehaviour
         playerInput.Player.Move.performed += ctx => OnMove(ctx);
         playerInput.Player.Move.canceled += ctx => OnMoveCanceled();
 
-        playerInput.Player.Interact.performed += ctx => OnInteract(); // Interaksi saat tombol E ditekan
+        playerInput.Player.Interact.performed += ctx =>  //E button
+        {
+            OnInteract();
+        };
+
+        RefreshUiAction();
     }
 
     private void Update()
@@ -35,6 +51,20 @@ public class PlayerController : MonoBehaviour
         HandleMovement();
         HandleAnimation();
     }
+
+    #region Static Controller
+
+    public void OnPlayerMove(Vector2 _direction)
+    {
+        movementInput = _direction;
+    }
+
+    public void OnPlayerInteract()
+    {
+        OnInteract();
+    }
+
+    #endregion
 
     private void OnMove(InputAction.CallbackContext context)
     {
@@ -85,6 +115,8 @@ public class PlayerController : MonoBehaviour
         {
             animator.Play(walkBackAnimation.name);
         }
+
+        PlayFootStep();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -94,6 +126,7 @@ public class PlayerController : MonoBehaviour
         if (interactable != null)
         {
             currentInteractable = interactable;
+            RefreshUiAction();
         }
     }
 
@@ -102,6 +135,61 @@ public class PlayerController : MonoBehaviour
         if (collision.GetComponent<IInteractable>() != null)
         {
             currentInteractable = null;
+            RefreshUiAction();
+        }
+    }
+
+    #region Trigger Button
+
+    UiController uiButtonAction;
+
+    private void RefreshUiAction()
+    {
+        if (uiButtonAction == null)
+        {
+            UiController[] controls = FindObjectsByType<UiController>(FindObjectsSortMode.None);
+            for (int i = 0; i < controls.Length; i++)
+            {
+                if (controls[i].IsName("ButtonAction"))
+                {
+                    uiButtonAction = controls[i];
+                    break;
+                }
+            }
+        }
+
+        if (uiButtonAction == null)
+            return;
+
+        uiButtonAction.gameObject.SetActive(currentInteractable != null);
+    }
+
+    #endregion
+
+
+
+    bool canPlay;
+    private void PlayFootStep()
+    {
+        if (stepClips == null)
+            return;
+
+        if (canPlay)
+            return;
+
+        canPlay = true;
+
+        StartCoroutine(PlaySound());
+
+        IEnumerator PlaySound()
+        {
+            int rand = Random.Range(0, stepClips.Length);
+            SoundManager.Instance.PlaySoundEffect(stepClips[rand]);
+
+            yield return new WaitForSeconds(delayPlay);
+            
+            canPlay = false;
         }
     }
 }
+

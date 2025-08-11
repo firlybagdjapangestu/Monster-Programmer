@@ -1,0 +1,122 @@
+[
+  {
+    "questionText": "Which OOP principle focuses on restricting direct access to an object's data?",
+    "answers": [ "Abstraction", "Encapsulation", "Inheritance", "Polymorphism" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Encapsulation, how should internal data be accessed?",
+    "answers": [ "Through methods or properties", "By accessing global variables", "By editing the source code", "By directly modifying fields" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which access modifier in Java is used to make a field accessible only within the same class?",
+    "answers": [ "protected", "default", "public", "private" ],
+    "indexRightAnswer": 3,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What is the main benefit of Encapsulation?",
+    "answers": [ "Multiple inheritance", "Better code organization and security", "Automatic memory management", "Faster execution speed" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In C++, which keyword is used to hide a class member from outside access?",
+    "answers": [ "private", "internal", "protected", "hidden" ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Encapsulation is often implemented using which OOP feature?",
+    "answers": [ "Access modifiers", "Templates", "Pointers", "Recursion" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which access modifier allows a member to be accessed only by its own class and subclasses?",
+    "answers": [ "public", "sealed", "private", "protected" ],
+    "indexRightAnswer": 3,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, what is the convention to indicate a variable is intended for internal use only?",
+    "answers": [ "Prefix with a single underscore (_)", "Prefix with double underscore (__)", "Declare as static", "Use private keyword" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Why is direct access to fields usually avoided in Encapsulation?",
+    "answers": [ "To make the code run faster", "To prevent unintended changes", "To reduce file size", "To avoid syntax errors" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is the typical way to provide controlled access to private data?",
+    "answers": [ "Global variables", "Magic numbers", "Getters and setters", "Comments" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, what is the purpose of using getters and setters?",
+    "answers": [ "To import packages", "To store constants", "To control access to private fields", "To increase performance" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Encapsulation helps in achieving which software principle?",
+    "answers": [ "Automatic casting", "Data hiding", "Memory pooling", "Multiple inheritance" ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which keyword in C++ specifies that a member can only be accessed by its class and friends?",
+    "answers": [ "protected", "private", "internal", "restricted" ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "In Encapsulation, what is the term for exposing only necessary information?",
+    "answers": [ "Overloading", "Casting", "Inheritance", "Interface" ],
+    "indexRightAnswer": 3,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which OOP feature can be combined with Encapsulation to hide implementation details?",
+    "answers": [ "Recursion", "Overloading", "Abstraction", "Polymorphism" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What happens if you make all fields public instead of private?",
+    "answers": [ "Objects become immutable", "Memory usage decreases", "Encapsulation is broken", "Code runs faster" ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which practice violates the principle of Encapsulation?",
+    "answers": [ "Using methods to change values", "Keeping variables private", "Using getters and setters", "Directly modifying an object's fields" ],
+    "indexRightAnswer": 3,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Python, how do you strongly mangle a variable name to avoid accidental access?",
+    "answers": [ "Prefix with double underscore (__)", "Declare as final", "Use private keyword", "Prefix with single underscore (_)" ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which statement about Encapsulation is true?",
+    "answers": [ "It hides internal details and exposes only necessary parts", "It allows multiple classes to merge", "It automatically fixes syntax errors", "It speeds up program execution" ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, what access level should be used for fields to follow good Encapsulation practice?",
+    "answers": [ "public", "protected", "private", "package-private" ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  }
+]

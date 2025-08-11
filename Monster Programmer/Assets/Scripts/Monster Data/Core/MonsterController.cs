@@ -1,8 +1,15 @@
+using Manager;
+using Manager.Spawner;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MonsterController : MonoBehaviour, IInteractable
 {
+    [Header("[Setting]")]
+    [SerializeField] private bool iniiFromSpawner;
+
+    [Header("[Reference]")]
     [SerializeField] private SpriteRenderer frontSpriteRenderer;
     [SerializeField] private MonsterData selectedMonsterEnemy;
 
@@ -13,6 +20,9 @@ public class MonsterController : MonoBehaviour, IInteractable
 
     private void Start()
     {
+        if (iniiFromSpawner)
+            return;
+
         GetRandomMonster();
     }
 
@@ -20,8 +30,47 @@ public class MonsterController : MonoBehaviour, IInteractable
     {
         Debug.Log("Interacting with monster: " + frontSpriteRenderer.sprite.name);
         GameData.Instance.SelectEnemyMonster(selectedMonsterEnemy.monsterID);
+
+        //set data last world
+        PlayerSpawnPoint.RepositionPlayer(PlayerController.Main.transform.position);
+        FightSceneManager.LastWorld = SceneManager.GetActiveScene().name;
+
+        //change scene
         SceneManager.LoadScene("FightScene");
         // Tambahkan logika interaksi di sini jika perlu
+    }
+
+    public void GetRandomMonster(List<MonsterData> canSpawnMonsters)
+    {
+        var allMonsters = canSpawnMonsters;
+        if (allMonsters == null || allMonsters.Count == 0)
+        {
+            Debug.LogWarning("No monsters found in GameData!");
+            return;
+        }
+
+        float totalWeight = 0f;
+
+        foreach (var monster in allMonsters)
+        {
+            totalWeight += GetRarityWeight(monster.rarity);
+        }
+
+        float roll = Random.Range(0f, totalWeight);
+        float cumulativeWeight = 0f;
+
+        foreach (var monster in allMonsters)
+        {
+            cumulativeWeight += GetRarityWeight(monster.rarity);
+            if (roll <= cumulativeWeight)
+            {
+                selectedMonsterEnemy = monster;
+                frontSpriteRenderer.sprite = selectedMonsterEnemy.frontSpriteMonster;
+                frontSpriteRenderer.flipX = Random.Range(0, 2) == 0;
+
+                return;
+            }
+        }
     }
 
     public void GetRandomMonster()

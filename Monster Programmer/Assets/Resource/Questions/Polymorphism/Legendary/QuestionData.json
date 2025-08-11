@@ -1,0 +1,277 @@
+[
+  {
+    "questionText": "How does the Liskov Substitution Principle relate to polymorphism?",
+    "answers": [
+      "It prevents inheritance",
+      "It ensures objects of subclasses can replace objects of superclasses",
+      "It forces static polymorphism",
+      "It disables dynamic dispatch"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is double dispatch and why is it hard to implement in languages like Java?",
+    "answers": [
+      "It refers to method overloading",
+      "It involves two levels of inheritance",
+      "It’s when method to call depends on runtime types of two objects",
+      "It allows calling two methods at once"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In C++, which mechanism allows achieving polymorphism without inheritance?",
+    "answers": [
+      "Abstract classes",
+      "Function overloading",
+      "Templates and duck typing",
+      "Virtual inheritance"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which Python principle enables polymorphism without enforcing inheritance hierarchies?",
+    "answers": [
+      "Static typing",
+      "Multiple inheritance",
+      "Duck typing",
+      "Metaclasses"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "How can interfaces in Java achieve polymorphism?",
+    "answers": [
+      "By allowing implementation inheritance",
+      "By hiding methods",
+      "By defining contracts that can be implemented differently",
+      "By forcing abstract inheritance"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which technique enables polymorphism based on parameter types at compile-time in C++?",
+    "answers": [
+      "Virtual functions",
+      "Templates",
+      "Operator overloading",
+      "Function pointers"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "What’s the difference between polymorphism in static vs dynamic languages?",
+    "answers": [
+      "Static languages only support runtime polymorphism",
+      "Dynamic languages require explicit interfaces",
+      "Dynamic languages rely on duck typing, static use type checking",
+      "Polymorphism is not possible in dynamic languages"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is subtype polymorphism?",
+    "answers": [
+      "Using different parameter types",
+      "Overriding static methods",
+      "Calling methods from different classes",
+      "Using a derived class wherever a base class is expected"
+    ],
+    "indexRightAnswer": 3,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, how does method resolution work with polymorphism and inheritance?",
+    "answers": [
+      "It resolves at compile time only",
+      "Runtime resolution for instance methods, compile time for static",
+      "All methods resolved at runtime",
+      "Java doesn’t support polymorphism"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Why is overriding static methods in Java not true polymorphism?",
+    "answers": [
+      "Because static methods are abstract",
+      "Because they are inherited directly",
+      "Because static methods are bound at compile-time",
+      "Because they can't be called from subclasses"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which Python method enables operator overloading for object comparisons?",
+    "answers": [
+      "__eq__",
+      "__comp__",
+      "__compare__",
+      "__equals__"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What limitation exists in C++ regarding polymorphism and templates?",
+    "answers": [
+      "Templates can't be used with inheritance",
+      "Templates do not support dynamic dispatch",
+      "Templates must always be virtual",
+      "Templates require interface classes"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which pattern is often used to simulate polymorphism in languages that don't support it directly?",
+    "answers": [
+      "Factory",
+      "Builder",
+      "Strategy",
+      "Decorator"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What role does virtual table (vtable) play in polymorphism in C++?",
+    "answers": [
+      "It stores method overloads",
+      "It tracks class inheritance",
+      "It maps virtual function calls to correct methods at runtime",
+      "It compiles interface code"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which of the following cannot be polymorphic in C++?",
+    "answers": [
+      "Virtual function",
+      "Template function",
+      "Static function",
+      "Function pointer"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "How can multiple inheritance complicate polymorphism in C++?",
+    "answers": [
+      "It prevents method overriding",
+      "It makes method resolution ambiguous",
+      "It disables virtual functions",
+      "It only affects static methods"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which of the following Python features supports polymorphism indirectly?",
+    "answers": [
+      "Abstract Base Classes",
+      "Static methods",
+      "Private variables",
+      "Tuple unpacking"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "How is method resolution order (MRO) related to polymorphism in Python?",
+    "answers": [
+      "It prevents function overloading",
+      "It defines inheritance chain for method calls",
+      "It allows static dispatch",
+      "It enables dynamic imports"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which language allows polymorphism even without inheritance using protocols?",
+    "answers": [
+      "Java",
+      "Python",
+      "C++",
+      "None"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which term refers to a function call being resolved based on actual object type?",
+    "answers": [
+      "Early binding",
+      "Static linking",
+      "Dynamic dispatch",
+      "Template instantiation"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "How does Java support polymorphism for interfaces with default methods?",
+    "answers": [
+      "By prohibiting multiple inheritance",
+      "By allowing multiple implementations with defaults",
+      "By ignoring interface methods",
+      "By using reflection"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What is the primary runtime cost of dynamic polymorphism?",
+    "answers": [
+      "Extra memory for methods",
+      "Slower method lookup through vtable",
+      "Increased compile time",
+      "Reduced inheritance depth"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Why can't constructors be overridden for polymorphism?",
+    "answers": [
+      "Constructors are private",
+      "Constructors can't be virtual",
+      "Constructors don't support dynamic types",
+      "Constructors are static"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which design principle is broken if polymorphism is misused?",
+    "answers": [
+      "KISS",
+      "SOLID",
+      "DRY",
+      "YAGNI"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which pattern lets you use polymorphism to encapsulate interchangeable behavior?",
+    "answers": [
+      "Strategy Pattern",
+      "Observer Pattern",
+      "Factory Pattern",
+      "Composite Pattern"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  }
+]

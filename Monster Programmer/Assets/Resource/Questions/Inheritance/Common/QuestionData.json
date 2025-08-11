@@ -1,0 +1,332 @@
+[
+  {
+    "questionText": "What is inheritance in Object-Oriented Programming?",
+    "answers": [
+      "A way to reuse code by inheriting methods and properties from another class",
+      "A method to convert one data type to another",
+      "A way to hide data from other classes",
+      "A technique for writing multiple constructors"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is a 'child class' in inheritance?",
+    "answers": [
+      "A class that is completely unrelated to other classes",
+      "A class that inherits from another class",
+      "A class that can't be extended",
+      "A class used only for debugging"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What does the keyword 'extends' mean in Java?",
+    "answers": [
+      "It initializes a variable",
+      "It copies the data from another class",
+      "It indicates that one class inherits from another",
+      "It creates a new thread"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which symbol is used in Python to define inheritance?",
+    "answers": [
+      "Colon :",
+      "Arrow ->",
+      "Brackets []",
+      "Parentheses ()"
+    ],
+    "indexRightAnswer": 3,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What does 'super' refer to in inheritance?",
+    "answers": [
+      "It refers to a static variable",
+      "It allows access to the parent class",
+      "It indicates a child class",
+      "It defines an abstract class"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which class in Java is the root of all classes?",
+    "answers": [
+      "MainClass",
+      "RootClass",
+      "Object",
+      "Base"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Can Python support multiple inheritance?",
+    "answers": [
+      "Yes",
+      "No",
+      "Only in Python 3",
+      "Only for abstract classes"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "What does the term 'is-a' relationship refer to?",
+    "answers": [
+      "Aggregation",
+      "Composition",
+      "Inheritance",
+      "Encapsulation"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In C++, which symbol is used to define inheritance?",
+    "answers": [
+      ":",
+      "->",
+      "::",
+      ";"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "What keyword in Java calls the parent class constructor?",
+    "answers": [
+      "parent()",
+      "this()",
+      "base()",
+      "super()"
+    ],
+    "indexRightAnswer": 3,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What does the 'object' class in Python represent?",
+    "answers": [
+      "A data structure",
+      "The base class of all new-style classes",
+      "A type of exception",
+      "A private class"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Which concept helps in reusability of code in OOP?",
+    "answers": [
+      "Encapsulation",
+      "Polymorphism",
+      "Inheritance",
+      "Overloading"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "How do you declare a base class in C++?",
+    "answers": [
+      "class BaseClass : public AnotherClass",
+      "class BaseClass extends AnotherClass",
+      "BaseClass inherits AnotherClass",
+      "def BaseClass(AnotherClass)"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Can private members be inherited?",
+    "answers": [
+      "No, they are not accessible",
+      "Yes, they are always public in the child class",
+      "Only if the child class is static",
+      "Only in C++"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What is the output of `super().__init__()` in Python?",
+    "answers": [
+      "Initializes the parent class",
+      "Creates a new class",
+      "Calls the destructor",
+      "Deletes the object"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "In Java, can a class inherit multiple classes directly?",
+    "answers": [
+      "Yes",
+      "Only with 'super' keyword",
+      "No, only one class",
+      "Only abstract classes"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Which class members can be inherited?",
+    "answers": [
+      "Private and static",
+      "Public and protected",
+      "Only static",
+      "Only methods"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which OOP feature describes a child class inheriting the behavior of a parent?",
+    "answers": [
+      "Abstraction",
+      "Inheritance",
+      "Encapsulation",
+      "Reflection"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which Python function allows a class to inherit?",
+    "answers": [
+      "extend()",
+      "__inherit__()",
+      "using class(Base)",
+      "define class with parentheses"
+    ],
+    "indexRightAnswer": 3,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "In C++, what type of inheritance allows access to public and protected members?",
+    "answers": [
+      "Private inheritance",
+      "Protected inheritance",
+      "Public inheritance",
+      "Multiple inheritance"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "What is inherited in class inheritance?",
+    "answers": [
+      "Only methods",
+      "Only properties",
+      "Both methods and properties",
+      "Only constructors"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "What does `class A : public B {}` mean in C++?",
+    "answers": [
+      "Class B inherits A",
+      "Class A inherits class B",
+      "A and B are unrelated",
+      "A is private to B"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "Which type of inheritance is not supported in Java?",
+    "answers": [
+      "Single",
+      "Multi-level",
+      "Multiple",
+      "Hierarchical"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "What is the role of the parent class in OOP?",
+    "answers": [
+      "To hold private values",
+      "To define the common structure for its child classes",
+      "To manage data only",
+      "To run separate threads"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "How is multiple inheritance handled in Python?",
+    "answers": [
+      "By using interfaces",
+      "Through method resolution order (MRO)",
+      "It is not supported",
+      "By using the 'base()' function"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  },
+  {
+    "questionText": "Why is inheritance useful?",
+    "answers": [
+      "It hides information",
+      "It removes the need for classes",
+      "It promotes code reuse",
+      "It makes code unreadable"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "In Java, what is inherited from the Object class?",
+    "answers": [
+      "Nothing",
+      "Only fields",
+      "All classes inherit common methods like toString()",
+      "Only private methods"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "Java"
+  },
+  {
+    "questionText": "Can constructors be inherited?",
+    "answers": [
+      "Yes, always",
+      "No, never",
+      "They are not inherited but can be called using super",
+      "Only in C++"
+    ],
+    "indexRightAnswer": 2,
+    "specializeType": "None"
+  },
+  {
+    "questionText": "Which C++ inheritance type hides the base class members?",
+    "answers": [
+      "Private inheritance",
+      "Public inheritance",
+      "Virtual inheritance",
+      "Single inheritance"
+    ],
+    "indexRightAnswer": 0,
+    "specializeType": "CPlusPlus"
+  },
+  {
+    "questionText": "In Python, how do you call the parent class method?",
+    "answers": [
+      "this.method()",
+      "super().method()",
+      "parent.method()",
+      "base().method()"
+    ],
+    "indexRightAnswer": 1,
+    "specializeType": "Python"
+  }
+]
