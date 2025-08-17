@@ -38,6 +38,8 @@ public class MonsterLibraryController : MonoBehaviour
         commonButton.onClick.AddListener(() => ShowMonstersByRarity(Rarity.Common));
         rareButton.onClick.AddListener(() => ShowMonstersByRarity(Rarity.Rare));
         legendaryButton.onClick.AddListener(() => ShowMonstersByRarity(Rarity.Legendary));
+
+        ChoiceMonster(GameData.Instance.defaultMonster);
     }
 
     public void ShowMonstersByRarity(Rarity rarity)

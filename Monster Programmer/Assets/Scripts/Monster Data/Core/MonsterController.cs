@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class MonsterController : MonoBehaviour, IInteractable
 {
     [Header("[Setting]")]
+    [SerializeField] private bool debugMode;
     [SerializeField] private bool iniiFromSpawner;
 
     [Header("[Reference]")]
@@ -20,6 +21,15 @@ public class MonsterController : MonoBehaviour, IInteractable
 
     private void Start()
     {
+        if (debugMode)
+        {
+            List<MonsterData> debugMonsters = new List<MonsterData>();
+            debugMonsters.Add(selectedMonsterEnemy);
+            
+            GetRandomMonster(debugMonsters);
+            return;
+        }
+
         if (iniiFromSpawner)
             return;
 
